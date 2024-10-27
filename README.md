@@ -12,18 +12,20 @@ Full user and systems documentation is provided in the [documentation subdirecto
 
 ## Brief user notes
 
-If you have successfully installed either the **picomz-80k.uf2** or **picomz-80k-diag.uf2** file, then when a USB keyboard (use picomz-80k.uf2) or terminal emulator (use picomz-80k-diag.uf2) and VGA display is connected along with a microSD card containing Sharp MZ-80K software, you should see:
+Ensure a microSD card containing one or more Sharp MZ-80K software (.mzf) files is installed in the slot on the Pimoroni VGA demo base. 
+
+If you have successfully flashed either **picomz-80k.uf2** or **picomz-80k-diag.uf2** to the pico, when a USB keyboard (use picomz-80k.uf2) or terminal emulator (use picomz-80k-diag.uf2) plus VGA display is connected, you will see:
 
 ** MONITOR SP-1002 **
 
 \*
 
-on the screen. 
+on the screen.  
 
 If the Pico's green led is flashing quickly (200ms between flashes), this means that a USB keyboard has not been connected or recognised via a terminal emulator. 
 
 If the Pico's green led is flashing slowly (1s between flashes), then your microSD card cannot be read.
 
-If either of these error conditions occur, the emulator will not display the monitor prompt on the VGA screen until the problem is resolved. 
+If either of these error conditions occur, the emulator will not display the monitor prompt until the problem is resolved. 
 
 ### This README was last updated on 27th October 2024.
